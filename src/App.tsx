@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Widget } from './components/Widget';
 export function Button() {
     return <button className="bg-slate-900 p-2">teste</button>;
 }
@@ -9,7 +10,7 @@ function App() {
     }, []);
     return (
         <div className="App">
-            <Button />
+            <Widget />
         </div>
     );
 }
